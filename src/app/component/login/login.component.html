@@ -1,0 +1,41 @@
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin: 20%; justify-content: center;">
+ <div> 
+    <h1><b>Get's Started.</b></h1>
+  <div style="display: flex;">
+    <p>Already have an account? </p>
+    <p style="color:coral;">login</p>
+    </div>
+</div>
+<div style="justify-content: space-between; width: 70%; display: flex; margin: 5px 0px 5px 5px;">
+    <button mat-raised-button style="padding: 5px; size: 5px; width: 45%;"><mat-icon style="color: red; margin-right: 5px;">mail</mat-icon>Sign up with Google</button>
+    <button mat-raised-button color="primary" style="padding: 5px;width: 45%;"><mat-icon style="margin-right: 5px;">facebook</mat-icon>Sign up with facebook</button>
+</div>
+<div style="justify-content: space-between; display: flex; width: 70%;">
+    <mat-divider style="width: 45%; margin-top: 30px;"></mat-divider>
+    <h4 style="margin-top: 20px;">OR</h4>
+    <mat-divider style="width: 45%; margin-top: 30px;"></mat-divider>
+</div>
+<form>
+  <div class="text-input">
+    <mat-form-field appearance="outline" style="width: 100%;">
+      <mat-label>Email Address</mat-label>
+      <input matInput placeholder="name@gmail.com" style="margin-left: 10px;"/>
+      <mat-icon matPrefix>mail</mat-icon>
+    </mat-form-field>
+  </div>
+  <div class="text-input">
+    <mat-form-field appearance="outline" style="width: 100%;">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="********" style="margin-left: 10px;"/>
+      <mat-icon matPrefix>lock</mat-icon>
+    </mat-form-field>
+  </div>
+  <div style="display: flex; margin: 5px;">
+    <input type="checkbox">
+    <mat-label>I agree to platform's </mat-label>
+    <p style="color: coral; margin-left: 5px; margin-right: 5px;"> Terms of Services </p>
+    <p> and </p>
+    <p style="color: coral; margin-left: 5px;"> Privacy Policies </p>
+  </div>
+  <button mat-raised-button color="warn" class="btn">Sign in</button>
+</form>

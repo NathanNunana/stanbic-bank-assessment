@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#img-container{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/grp.jpg");
+    background-size: cover;
+}
+
+#img-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 209, 209, 0.5);
+}

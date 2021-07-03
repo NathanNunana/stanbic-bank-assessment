@@ -10,12 +10,16 @@ import { LoginComponent } from './component/login/login.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { HeaderComponent } from './component/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
